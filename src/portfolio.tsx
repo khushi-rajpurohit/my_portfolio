@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import { useEffect } from 'react';
+
 
 import Header from './components/header';
 import App from './App';
