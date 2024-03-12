@@ -1,0 +1,49 @@
+.div-resume{
+    background-color: white;
+    padding: 5rem 2rem 2rem 2rem;
+    border-color: black;
+    
+}
+.div2-resume{
+   padding: 1rem;
+    border: 10px solid  #f1f1f1;
+}
+.r-div-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.edu-div{
+    display: flex;
+    flex-direction: row;
+}
+.result-div{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+}
+.r-h1{
+    background-color:  #d5d3d3;
+}
+
+.r-name{
+    background-color: #d5d3d3;
+    padding: 1rem;
+    
+}
+
+@media (max-width: 768px){
+   
+        
+        .div-resume{
+            background-color: white;
+            padding: 5rem 0 0 0;
+            border-color: black;
+            
+        }
+        
+        
+   
+    
+}

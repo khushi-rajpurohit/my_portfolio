@@ -1,0 +1,101 @@
+
+.w-div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.w1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+
+.w-text{
+    padding: 2rem;
+    width: 80%;
+    box-sizing:content-box;
+}
+
+.upwan{
+    text-align: center;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+.upwan:hover{
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+  color: black;
+}
+.w-h1{
+    padding-top: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 2px solid  black;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.w-p{
+    max-width: 100%; /* Ensure images don't exceed the width of the container */
+    height: auto;
+}
+.w-photos{
+    
+    display: flex;
+  gap: 10px;
+}
+.w-photos-container {
+    max-height: auto; /* Adjust the maximum height as needed */
+    overflow-y: unset;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .slick-slider{
+    width: 40%;
+  }
+  .slick-dots {
+    /* position: absolute; */
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+
+@media(max-width : 768px ){
+    .w-h1{
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 2px solid  black;
+        padding-top: 5rem;
+    }
+    .w-div{
+        padding-top: 1.5rem;
+    }
+    .upwan{
+        font-size: 1rem;
+    }
+}
